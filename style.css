@@ -1,0 +1,127 @@
+html, body {
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(37, 33, 92);
+}
+
+#container {
+    margin: 100px auto;
+    height: 300px;
+    width: 800px;
+    background-color: white;
+    display: grid;
+}
+
+#paragraph {
+    text-align: center;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+}
+
+#container-two {
+    margin: -50px auto;
+    height: 80px;
+    width: 800px;
+    background-color: rgb(49, 165, 140);
+    display: flex;
+}
+
+/*font family*/
+#fontdiv {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+#font-label {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+#select {
+    height: 25px;
+    width: 100px;
+}
+
+/*Size*/
+#fontsize {
+    align-self: center;
+    margin-left: 50px;
+}
+
+#fontsize p {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Font Color*/
+#fontcolor {
+    align-self: center;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+#fontcolor p {
+    font-weight: bold;
+    padding: 0;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+#colors {
+    display: flex;
+    height: 25px;
+    width: 120px;
+    justify-content: space-between;
+}
+#black {
+    background-color: black;
+    height: 25px;
+    width: 25px;
+}
+#red {
+    background-color: red;
+    height: 25px;
+    width: 25px;
+}
+#blue {
+    background-color: blue;
+    height: 25px;
+    width: 25px;
+}
+#green {
+    background-color: green;
+    height: 25px;
+    width: 25px;
+}
+
+/*Font weight*/
+#fontstyle {
+    align-self: center;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#fontstyle p {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px;
+}
+
+#div-style {
+    display: flex;
+    flex-direction: row;   
+}
+
+#light {
+    height: 25px;
+    width: 50px;
+    margin-left: 10px;
+}
+#bold {
+    height: 25px;
+    width: 50px;
+}

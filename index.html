@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <p id="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Similique, corporis! Laborum facere adipisci neque illo hic molestiae
+             ipsum consectetur quam aliquam, commodi soluta eum exercitationem 
+             blanditiis amet eveniet ex ratione. Lorem ipsum, dolor sit amet consectetur 
+             adipisicing elit. Omnis tenetur recusandae dicta! Quidem assumenda dignissimos
+              omnis asperiores ipsum officia totam qui maxime id cupiditate nisi, fugiat 
+              quaerat, eum quia voluptates!</p>
+    </div>
+    <div id="container-two">
+        <div id="fontdiv">
+        <label for="select" id="font-label">Font Family:</label>
+        <select id="select" onchange="myFunction()">
+            <option value="default">Default</option>
+            <option value="arial">Arial</option>
+            <option value="cambria">Cambria</option>
+            <option value="monospace">Monospace</option>
+            <option value="georgia">Georgia</option>
+        </select>
+        </div>
+
+        <div id="fontsize">
+            <p>Font Size: <span id="size"></span></p>
+            <input type="range" min="1" max="25" value="12" id="range-slider">
+        </div>
+
+        <div id="fontcolor">
+            <p>Font Color:</p>
+            <div id="colors">
+                <button id="black"></button>
+                <button id="red"></button>
+                <button id="blue"></button>
+                <button id="green"></button>
+            </div>
+        </div>
+
+        <div id="fontstyle">
+            <p>Font Style:</p>
+            <div id="div-style">
+                <button id="normal">Normal</button><button id="cursive">Cursive</button><button id="light">Light</button><button id="bold">Bold</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
